@@ -1,0 +1,175 @@
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: "woodmart-font";
+	src: url("//demoes.aramis-co.ir/dgkala/wp-content/themes/woodmart/fonts/woodmart-font-1-400.woff2?v=7.4.5") format("woff2");
+}
+
+:root {
+	--wd-header-banner-h: 60px;
+	--wd-text-font: YekanBakhFaNum;
+	--wd-text-font-weight: 400;
+	--wd-text-color: #777777;
+	--wd-text-font-size: 14px;
+	--wd-title-font: YekanBakhFaNum;
+	--wd-title-font-weight: 500;
+	--wd-title-color: #242424;
+	--wd-entities-title-font: YekanBakhFaNum;
+	--wd-entities-title-font-weight: 400;
+	--wd-entities-title-color: rgb(119,119,119);
+	--wd-entities-title-color-hover: rgb(51 51 51 / 65%);
+	--wd-alternative-font: YekanBakhFaNum;
+	--wd-widget-title-font: YekanBakhFaNum;
+	--wd-widget-title-font-weight: 500;
+	--wd-widget-title-transform: uppercase;
+	--wd-widget-title-color: rgb(119,119,119);
+	--wd-widget-title-font-size: 16px;
+	--wd-header-el-font: YekanBakhFaNum;
+	--wd-header-el-font-weight: 500;
+	--wd-header-el-transform: uppercase;
+	--wd-header-el-font-size: 13px;
+	--wd-primary-color: #d60644;
+	--wd-alternative-color: #b70540;
+	--wd-link-color: #d60644;
+	--wd-link-color-hover: #b5003c;
+	--btn-default-bgcolor: #c1113d;
+	--btn-default-bgcolor-hover: #b63c56;
+	--btn-accented-bgcolor: #c1113d;
+	--btn-accented-bgcolor-hover: #c10537;
+	--wd-form-brd-width: 2px;
+	--notices-success-bg: #459647;
+	--notices-success-color: #fff;
+	--notices-warning-bg: #E0B252;
+	--notices-warning-color: #fff;
+	--wd-sticky-btn-height: 95px;
+}
+:is(.shop-content-area.wd-builder-off,.wd-wishlist-content,.related-and-upsells,.cart-collaterals,.wd-shop-product,.wd-fbt) .wd-products-with-bg, :is(.shop-content-area.wd-builder-off,.wd-wishlist-content,.related-and-upsells,.cart-collaterals,.wd-shop-product,.wd-fbt) .wd-products-with-bg .wd-product {
+	--wd-prod-bg:rgb(255,255,255);
+	--wd-bordered-bg:rgb(255,255,255);
+}
+.woodmart-woocommerce-layered-nav .wd-scroll-content {
+	max-height: 280px;
+}
+div.wd-popup.wd-age-verify {
+	max-width: 500px;
+}
+.wd-popup.wd-promo-popup {
+	background-color: rgba(255,255,255,0);
+	background-image: none;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left center;
+}
+div.wd-popup.wd-promo-popup {
+	max-width: 1000px;
+}
+.header-banner {
+	background-image: url(https://demoes.aramis-co.ir/dgkala/wp-content/uploads/2023/09/663ce17cd81d8f4a867ba37fb62e2eee308c2e14_1694942765-1-1-scaled.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: inherit;
+	background-position: center top;
+}
+.page-title-default {
+	background-color: #0a0a0a;
+	background-image: none;
+	background-size: cover;
+	background-position: center center;
+}
+.footer-container {
+	background-color: rgb(255,255,255);
+	background-image: none;
+}
+html .product-image-summary-wrap .product_title, html .wd-single-title .product_title {
+	font-family: IRANSans;	font-size: 14px;
+}
+body[class*="wrapper-boxed"] {
+	background-color: rgb(246,246,246);
+	background-image: none;
+}
+.page .main-page-wrapper {
+	background-color: rgb(255,255,255);
+	background-image: none;
+}
+.woodmart-archive-shop:not(.single-product) .main-page-wrapper {
+	background-color: rgb(243,243,243);
+	background-image: none;
+}
+.single-product .main-page-wrapper {
+	background-color: rgb(243,243,243);
+	background-image: none;
+}
+.woodmart-archive-blog .main-page-wrapper {
+	background-color: rgb(243,243,243);
+	background-image: none;
+}
+.single-post .main-page-wrapper {
+	background-color: rgb(243,243,243);
+	background-image: none;
+}
+.woodmart-archive-portfolio .main-page-wrapper {
+	background-color: rgb(243,243,243);
+	background-image: none;
+}
+.single-portfolio .main-page-wrapper {
+	background-color: rgb(243,243,243);
+	background-image: none;
+}
+div.wd-popup.popup-quick-view {
+	max-width: 920px;
+}
+
+@media (max-width: 1024px) {
+	:root {
+		--wd-header-banner-h: 40px;
+	--wd-sticky-btn-height: 95px;
+	}
+
+}
+
+@media (max-width: 768.98px) {
+	:root {
+		--wd-sticky-btn-height: 42px;
+	}
+
+}
+:root{
+--wd-container-w: 1350px;
+--wd-form-brd-radius: 35px;
+--btn-default-color: #fff;
+--btn-default-color-hover: #fff;
+--btn-accented-color: #fff;
+--btn-accented-color-hover: #fff;
+--btn-default-brd-radius: 0px;
+--btn-default-box-shadow: none;
+--btn-default-box-shadow-hover: none;
+--btn-default-box-shadow-active: none;
+--btn-default-bottom: 0px;
+--btn-accented-bottom-active: -1px;
+--btn-accented-brd-radius: 0px;
+--btn-accented-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .15);
+--btn-accented-box-shadow-hover: inset 0 -2px 0 rgba(0, 0, 0, .15);
+--wd-brd-radius: 12px;
+}
+
+@media (min-width: 1367px) {
+.platform-Windows .wd-section-stretch > .elementor-container {
+margin-left: auto;
+margin-right: auto;
+}
+}
+
+@media (min-width: 1350px) {
+html:not(.platform-Windows) .wd-section-stretch > .elementor-container {
+margin-left: auto;
+margin-right: auto;
+}
+}
+
+rs-slides :is([data-type=text],[data-type=button]) {
+font-family: YekanBakhFaNum !important;
+}
+rs-slides :is(h1,h2,h3,h4,h5,h6)[data-type=text] {
+font-family: YekanBakhFaNum !important;
+}
+
